@@ -1,0 +1,50 @@
+section {
+    .container {
+        .section_title { 
+            h1 {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 110%;
+                letter-spacing: 1.2px;
+                text-align: center;
+                color: #111111;
+                // margin-top: 50px;
+                span {
+                    margin-top: 10px !important;
+                    background: #EFDFFD;
+                    line-height: 145%;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 768px) {
+        .container {
+            .section_title { 
+                h1 {
+                    font-size: 38px;
+                    line-height: 48px;
+                    text-align: start;
+                    span {
+                        line-height: 145%;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (min-width: 992px) {
+        .container {
+            .section_title { 
+                h1 {
+                    font-size: 58px;
+                    line-height: 58px;
+                    span {
+                        line-height: 145%;
+                    }
+                }
+            }
+        }
+    }
+}
