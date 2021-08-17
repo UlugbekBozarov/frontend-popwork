@@ -16,7 +16,7 @@ const Section3 = () => {
                     </div>
                     <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
                         <div style={{position: "relative"}}>
-                            <div className="img_block" >
+                            <div className="img_block px-4">
                                 <img src="/images/section-3/s_31.png" alt="s_31" />
                                 <img src="/images/section-3/s_32.png" alt="s_32" />
                                 <img src="/images/section-3/s_33.png" alt="s_33" />

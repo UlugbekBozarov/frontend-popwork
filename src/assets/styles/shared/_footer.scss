@@ -1,0 +1,44 @@
+footer#footer {
+    padding: 100px 0;
+    .text-align-center {
+        text-align: center;
+    }
+
+    .brand {
+        margin-bottom: 20px;
+    }
+    p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 22px;
+        color: #373528;
+    }
+    h4 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 20px;
+        color: #111111;
+        margin-bottom: 20px;
+    }
+    .nav-link {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 19px;
+        padding-left: 0;
+        color: #111111;
+        margin-bottom: 5px;
+        &:hover {
+            color: #000;
+            font-weight: 700;
+        }
+    }
+    @media (min-width: 578px) {
+        .text-align-center {
+            text-align: start;
+        }
+    }
+
+}
