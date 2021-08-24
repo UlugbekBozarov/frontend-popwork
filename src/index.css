@@ -1,4 +1,4 @@
-@import './assets//styles//bootstrap//bootstrap.min.css';
+@import './library/bootstrap.min.css';
 
 body {
   margin: 0;

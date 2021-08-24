@@ -1,0 +1,17 @@
+section#topic {
+    margin-bottom: 100px;
+    .container {
+        .img_block {
+            img {
+                max-width: 100%;
+            }
+        }
+        .section_title {
+            h1 {
+                span {
+                    background-color: rgb(229, 255, 199) !important;
+                }
+            }
+        }
+    }
+}
